@@ -58,7 +58,7 @@ $autoload['libraries'] = array(
     'form_validation', 
     'table', 
     'upload', 
-    'global_functions',
+    //'global_functions',
     'pagination'
     );
 
