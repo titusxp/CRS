@@ -1,10 +1,90 @@
 <html>
 <head>
-	<title>403 Forbidden</title>
+<title>Car Rentals</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/custom.css" rel="stylesheet"/>
 </head>
 <body>
+<div>
+	<div>
+		<nav class="navbar navbar-inverse navbar-fixed-top background-color:blue>
+			<div class="container">
+			<a class="navbar-brand" href="index.html">CAR RENTALS</a>
+				<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-center">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="cars.html">Cars</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+				</div>
+			</div>
+			</nav>
+	</div>	
 
-<p>Directory access is forbidden.</p>
-
+	<div class="container">
+		<p>Image slider has been implemented in code right here...</p>
+		<p>The image slider shall display images of cars that exist in the db</p>
+			
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Wrapper for carousel items -->
+			<!-- Add logic that gets the pictures of the car from the database -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<!-- <img src="img/0.jpg"> -->
+				</div>
+				<div class="item">
+					<!-- <img src="img/1.jpg"> -->
+				</div>
+				<div class="item">
+					<img src="img/2.jpg">
+				</div>
+			</div>
+			<!-- Carousel controls -->
+			<a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<div class="jumbotron">
+					<div class="Container">
+						<div class="row">
+							<div class="col-md-6">
+								<h3><b>Overview</b></h3>
+								<p>Add content here that gives an overview of the site</p>
+							</div>
+							<div class="col-md-6">
+								<h3><b>About Us</b></h3>
+								<p>Add content here that gives a summary of who we are...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+			<p> Maybe login here...</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<div class="nav navbar-inverse navbar-fixed-bottom" text align="center">
+	<p>&copy;Shadow Kode</p>
+	</div>
+</div>
 </body>
 </html>
